@@ -1,12 +1,15 @@
-import java.util.*;
+//Soma entre dois números em java. 
+import java.util.*; 
 
-class Soma {
+//Classe representando a soma.
+class Soma { 
 
 public static  Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        //Declaracao de variaveis
-        int anum, bnum, soma;
+        
+        //Declaracao de variaveis. Sendo “anum” o primeiro número e o “bnum” segundo número. 
+        int anum, bnum, soma;   
 
         //leituras
         System.out.println("Digite um número");
